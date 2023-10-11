@@ -1,0 +1,44 @@
+*,::before,::after{margin: 0; padding: 0; box-sizing: border-box; }
+a{ text-decoration: none;}
+img{ vertical-align: bottom;}
+label{ display: inline-block;}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif; background: #dcfbfb;
+}
+
+.container{ 
+    max-width: 1200px; 
+    margin: auto; 
+    padding: 0 15px;
+    /* border: 1px solid red; */
+}
+
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -15px;
+}
+
+.row [class^='col']{flex: 1 0 auto; padding: 0 15px;}
+
+.row .col-1{flex-basis: 8.33%; max-width: 8.33%;}
+.row .col-2{flex-basis: 16.66%; max-width: 16.66%;}
+.row .col-3{flex-basis: 25%; max-width: 25%;}
+.row .col-4{flex-basis: 33.33%; max-width: 33.33%;}
+.row .col-5{flex-basis: 41.66%; max-width: 41.66%;}
+.row .col-6{flex-basis: 50%; max-width: 50%;}
+.row .col-7{flex-basis: 58.33%; max-width: 58.33%;}
+.row .col-8{flex-basis: 66.66%; max-width: 66.66%;}
+.row .col-9{flex-basis: 75%; max-width: 75%;}
+.row .col-10{flex-basis: 83.33%; max-width: 83.33%;}
+.row .col-11{flex-basis: 91.11%; max-width: 91.11%;}
+.row .col-12{flex-basis: 100%; max-width: 100%;}
+
+
+
+
+
+
+
+

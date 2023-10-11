@@ -1,0 +1,12 @@
+.wrap-1{
+    background: #ffa5a5;
+    display: flex;
+    text-align: center;
+    padding: 1.5rem;
+}
+.wrap-1 h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 4rem;
+    text-shadow: 0 0 13px #4c0000;
+    font-weight: 500;
+}
